@@ -1,12 +1,11 @@
-import org.gradle.api.tasks.Delete
-
 buildscript {
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:8.6.0") // <--- baisse la version ici
+        classpath("com.android.tools.build:gradle:8.6.0")  // version AGP
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10") // plugin Kotlin
     }
 }
 
